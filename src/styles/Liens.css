@@ -1,0 +1,80 @@
+/* Styles pour le composant Liens */
+.liens {
+  background-color: var(--bg-light);
+}
+
+.liens-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.liens-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
+}
+
+.lien-card {
+  background-color: var(--bg-white);
+  padding: var(--spacing-lg);
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.lien-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--lien-couleur);
+}
+
+.lien-icon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.lien-nom {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.lien-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-sm);
+  flex: 1;
+}
+
+.lien-arrow {
+  font-size: 1.5rem;
+  color: var(--lien-couleur);
+  transition: var(--transition);
+}
+
+.lien-card:hover .lien-arrow {
+  transform: translateX(5px);
+}
+
+/* Responsive Liens */
+@media (max-width: 768px) {
+  .liens-container {
+    padding: 0 1rem;
+  }
+  
+  .liens-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+}
+
