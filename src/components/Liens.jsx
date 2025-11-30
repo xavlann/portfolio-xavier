@@ -19,8 +19,8 @@ function Liens() {
     {
       id: 2,
       nom: "CV PDF",
-      description: "Téléchargez mon CV au format PDF (à ajouter)",
-      url: "public/Fave_Xavier_CV_Stage (1).pdf",
+      description: "Téléchargez mon CV au format PDF",
+      url: encodeURI("/Fave_Xavier_CV_Stage (1).pdf"),
       icon: "📄",
       couleur: "#e74c3c"
     }
