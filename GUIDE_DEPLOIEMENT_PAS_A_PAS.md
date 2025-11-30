@@ -97,7 +97,7 @@ git remote add origin https://github.com/VOTRE-USERNAME/portfolio-xavier.git
 git branch -M main
 
 # Envoyer votre code sur GitHub
-git push -u origin main
+    git push -u origin main
 ```
 
 **Important** : Remplacez `VOTRE-USERNAME` par votre vrai nom d'utilisateur GitHub !
