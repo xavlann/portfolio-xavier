@@ -1,42 +1,10 @@
 /**
  * Composant Contact
- * Section de contact avec formulaire et informations de contact
- * Permet aux visiteurs d'envoyer un message
+ * Section de contact avec informations de contact
  */
-import { useState } from 'react'
 import '../styles/Contact.css'
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    nom: '',
-    email: '',
-    sujet: '',
-    message: ''
-  })
-  const [status, setStatus] = useState('')
-
-  // Gestion du changement des champs du formulaire
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
-  }
-
-  // Gestion de la soumission du formulaire
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    
-    // Ici, vous pouvez ajouter la logique d'envoi d'email
-    // Par exemple, utiliser un service comme EmailJS, Formspree, ou votre backend
-    
-    // Simulation d'envoi réussi
-    setStatus('success')
-    setFormData({ nom: '', email: '', sujet: '', message: '' })
-    
-    setTimeout(() => setStatus(''), 3000)
-  }
-
   // Informations de contact de Xavier FAVÉ
   const contactInfo = {
     email: "xav.fave@gmail.com",
@@ -82,71 +50,6 @@ function Contact() {
               </div>
             </div>
           </div>
-          
-          {/* Formulaire de contact */}
-          <form className="contact-form" onSubmit={handleSubmit}>
-            <div className="form-group">
-              <label htmlFor="nom">Nom *</label>
-              <input
-                type="text"
-                id="nom"
-                name="nom"
-                value={formData.nom}
-                onChange={handleChange}
-                required
-                placeholder="Votre nom"
-              />
-            </div>
-            
-            <div className="form-group">
-              <label htmlFor="email">Email *</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                placeholder="votre.email@example.com"
-              />
-            </div>
-            
-            <div className="form-group">
-              <label htmlFor="sujet">Sujet *</label>
-              <input
-                type="text"
-                id="sujet"
-                name="sujet"
-                value={formData.sujet}
-                onChange={handleChange}
-                required
-                placeholder="Objet de votre message"
-              />
-            </div>
-            
-            <div className="form-group">
-              <label htmlFor="message">Message *</label>
-              <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-                rows="6"
-                placeholder="Votre message..."
-              ></textarea>
-            </div>
-            
-            <button type="submit" className="btn btn-primary">
-              Envoyer le message
-            </button>
-            
-            {status === 'success' && (
-              <div className="form-status success">
-                Message envoyé avec succès ! Je vous répondrai dès que possible.
-              </div>
-            )}
-          </form>
         </div>
       </div>
     </section>
