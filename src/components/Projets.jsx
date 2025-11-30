@@ -16,7 +16,7 @@ function Projets() {
       description: "Analyse Big Data d'un fichier de 500 000 lignes en R, développement de modèles IA (clustering, classification, LSTM) pour la prédiction de trajectoires maritimes.",
       descriptionLongue: "Projet d'analyse de données massives et d'intelligence artificielle réalisé à l'ISEN Brest. Traitement d'un dataset volumineux (500 000 lignes) en R avec analyse statistique approfondie. Développement de modèles d'apprentissage automatique incluant des techniques de clustering, classification et réseaux de neurones LSTM pour la prédiction de trajectoires. Création d'une application web interactive permettant la visualisation des trajectoires prédites et l'analyse des résultats.",
       technologies: ["R", "Python", "Machine Learning", "LSTM", "Clustering", "Classification", "Big Data", "Visualisation"],
-      image: "public/ijgi-13-00085-g001.png",
+      image: "/ijgi-13-00085-g001.png",
       lienDemo: "#",
       lienGithub: "#",
       categorie: "Académique"
@@ -29,7 +29,7 @@ function Projets() {
       description: "Conception électronique complète d'un électrocardiogramme avec microcontrôleur, traitement et visualisation des signaux en Python.",
       descriptionLongue: "Projet interdisciplinaire combinant électronique, programmation embarquée et traitement de signal. Conception et réalisation d'un système d'électrocardiogramme complet incluant la partie électronique (capteurs, amplification, filtrage), programmation d'un microcontrôleur pour l'acquisition des données, et développement d'une application Python pour le traitement et la visualisation des signaux cardiaques. Fonctionnalités : affichage du BPM (battements par minute), mesure de la SpO2 (saturation en oxygène), système d'alarmes, et visualisation graphique des signaux ECG en temps réel.",
       technologies: ["Python", "Microcontrôleur", "Électronique", "Traitement de signal", "Matplotlib", "NumPy"],
-      image: "public/62-large.jpg",
+      image: "/62-large.jpg",
       lienDemo: "#",
       lienGithub: "#",
       categorie: "Académique"
@@ -42,7 +42,7 @@ function Projets() {
       description: "Développement d'une plateforme de streaming musical complète avec front-end et back-end.",
       descriptionLongue: "Projet de développement web full-stack simulant une plateforme de streaming musical. Interface utilisateur moderne et intuitive, système de gestion de playlists, recherche avancée, et lecture de musique. Backend robuste avec gestion des utilisateurs, base de données musicale, et API REST.",
       technologies: ["React", "JavaScript", "PHP", "SQL", "HTML/CSS", "Backend", "Frontend"],
-      image: "public/download-page-image-mac.fec937cc.png",
+      image: "/download-page-image-mac.fec937cc.png",
       lienDemo: "#",
       lienGithub: "#",
       categorie: "Académique"
@@ -55,7 +55,7 @@ function Projets() {
       description: "Application complète de gestion de tables de plongée avec interface utilisateur et système backend.",
       descriptionLongue: "Développement d'une application web complète pour la gestion et le calcul des tables de plongée. Interface utilisateur permettant la saisie des paramètres de plongée, calcul automatique des paliers de décompression, et visualisation des résultats. Backend avec algorithmes de calcul de décompression et gestion des données.",
       technologies: ["Frontend", "Backend", "JavaScript", "PHP", "SQL", "Algorithmes"],
-      image: "public/one-scuba-diver-underwater-back-260nw-1070776529.webp",
+      image: "/one-scuba-diver-underwater-back-260nw-1070776529.webp",
       lienDemo: "#",
       lienGithub: "#",
       categorie: "Académique"
@@ -68,7 +68,7 @@ function Projets() {
       description: "Application web de gestion de filmothèque développée avec React JS.",
       descriptionLongue: "Application React moderne pour la gestion d'une collection de films. Fonctionnalités : ajout, modification, suppression de films, recherche et filtrage, affichage des détails (réalisateur, acteurs, année, genre, note), et interface utilisateur responsive.",
       technologies: ["React", "JavaScript", "HTML/CSS", "State Management"],
-      image: "public/45592f00-ea1b-11e9-8846-ccfcb8897f62.jpg",
+      image: "/45592f00-ea1b-11e9-8846-ccfcb8897f62.jpg",
       lienDemo: "#",
       lienGithub: "#",
       categorie: "Académique"
@@ -81,7 +81,7 @@ function Projets() {
       description: "Développement d'un jeu vidéo de type rogue-like en langage C.",
       descriptionLongue: "Projet de programmation système en C : développement d'un jeu de type rogue-like avec génération procédurale de niveaux, système de combat, gestion de l'inventaire, et mécaniques de jeu classiques du genre. Optimisation des performances et gestion mémoire.",
       technologies: ["C", "Programmation système", "Algorithmes", "Structures de données"],
-      image: "public/tiny-rogue.jpg",
+      image: "/tiny-rogue.jpg",
       lienDemo: "#",
       lienGithub: "#",
       categorie: "Académique"
@@ -94,7 +94,7 @@ function Projets() {
       description: "Application Qt en C++ pour le calcul du plus court chemin sur une carte de la Bretagne.",
       descriptionLongue: "Application desktop développée avec Qt et C++ implémentant des algorithmes de recherche de plus court chemin (Dijkstra, A*) sur une carte graphique de la Bretagne. Interface utilisateur interactive permettant de sélectionner des points de départ et d'arrivée, visualisation du chemin optimal, et affichage des distances et temps de trajet.",
       technologies: ["C++", "Qt", "Algorithmes de graphes", "Dijkstra", "A*", "Interface graphique"],
-      image: "public/carte-gr34-sentier-des-douaniers-avec-noms-villes-portions.jpg",
+      image: "/carte-gr34-sentier-des-douaniers-avec-noms-villes-portions.jpg",
       lienDemo: "#",
       lienGithub: "#",
       categorie: "Académique"
